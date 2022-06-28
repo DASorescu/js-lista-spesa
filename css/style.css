@@ -1,0 +1,30 @@
+
+body{
+    height: 100vh;
+    background-color: brown;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    width: 50%;
+    height: 100%;
+    
+    
+}
+
+
+    
+
+#shopping-list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: antiquewhite;
+}
+li{
+    list-style-type: decimal;
+    font-size: 30px;
+}
